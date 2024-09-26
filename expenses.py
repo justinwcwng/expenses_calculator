@@ -8,6 +8,7 @@ from dash import Dash, html, Input, Output, State, callback, ALL
 import dash_bootstrap_components as dbc
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.QUARTZ])
+server = app.server
 app.title = "Justin's Calculator"
 
 ppl = ["Callum", "Justin"]
